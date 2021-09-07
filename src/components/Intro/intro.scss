@@ -1,3 +1,29 @@
 .intro {
-  background-color: rosybrown;
+  background-color: white;
+  display: flex;
+
+  .intro__left {
+    flex: 0.5;
+    overflow: hidden;
+
+    .imgContainer {
+      width: 700px;
+      height: 700px;
+      margin-top: 10px;
+      background-color: crimson;
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      float: right;
+
+      img {
+        width: 85%;
+      }
+    }
+  }
+
+  .intro__right {
+    flex: 0.5;
+  }
 }
